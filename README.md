@@ -37,10 +37,10 @@ The dashboard provides a consolidated view of key performance indicators (KPIs),
 ## 📊 Dashboard Preview
 
 ### 1. Overall Dashboard
-![Overall Dashboard](Screenshots/Blinkit_Dashboard.png)
+![Overall Dashboard](Blinkit_Dashboard.png)
 
 ### 2. Filtered Dashboard
-![Filtered Dashboard](Screenshots/Blinkit_Dashboard_Filtered.png)
+![Filtered Dashboard](Blinkit_Dashboard_Filtered.png)
 
 ## 🔢 Key Performance Indicators
 
