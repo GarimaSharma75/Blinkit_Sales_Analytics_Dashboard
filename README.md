@@ -1,69 +1,59 @@
-# Blinkit Grocery Sales & Outlet Performance Analytics
+# 🛒 Blinkit Sales Analytics Dashboard
 
-An interactive **Power BI dashboard** for analysing grocery sales across item categories, outlet sizes, location tiers, and outlet establishment years.
+![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
+![Data Analytics](https://img.shields.io/badge/Data_Analytics-54278F?style=for-the-badge&logo=googleanalytics&logoColor=white)
+![Interactive Dashboard](https://img.shields.io/badge/Interactive_Dashboard-7651B5?style=for-the-badge&logo=powerbi&logoColor=white)
+![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)
 
+An interactive **Blinkit Grocery Sales & Outlet Performance Dashboard** developed using Microsoft Power BI.
 
+---
 
-## Dashboard Preview
+## 📌 Overview
 
-Save the final screenshot as `Screenshots/Blinkit_Dashboard.png`, then embed it here:
+This project analyses grocery sales data to understand sales performance across product categories, outlet sizes, and location tiers.
 
-<!-- ![Blinkit Dashboard](Screenshots/Blinkit_Dashboard.png) -->
+The dashboard provides a consolidated view of key performance indicators (KPIs), interactive visualisations, and filtering capabilities to support data-driven analysis.
 
-## Objectives
+## 🚀 Key Features
 
-- Monitor sales performance using KPI cards.
-- Compare sales across item categories.
-- Analyse sales distribution by outlet size.
-- Compare performance across outlet location tiers.
-- Explore sales by outlet establishment year.
-- Enable interactive filtering with slicers.
+- 📊 **Overall Performance Metrics:** Total Sales, Average Sales, Total Items and Average Rating.
+- 🎛️ **Dynamic Filtering:** Filter by Outlet Location Type, Outlet Size and Item Type.
+- 🛍️ **Item Category Analysis:** Compare sales across different grocery categories.
+- 🏬 **Outlet Size Analysis:** Understand sales distribution across outlet sizes.
+- 📍 **Location Tier Analysis:** Compare Tier 1, Tier 2 and Tier 3 performance.
+- 📅 **Establishment-Year Analysis:** Explore sales by outlet establishment year.
+- 🧹 **Data Preparation:** Power Query transformations and category standardisation.
 
-## Key Performance Indicators
+## 📈 Visuals Explained
 
-Current unfiltered values displayed in Power BI (rounded):
+1. **KPI Cards:** Display key business metrics.
+2. **Horizontal Bar Chart:** Sales by Item Type.
+3. **Donut Chart:** Sales distribution by Outlet Size.
+4. **Column Chart:** Sales by Outlet Location Tier.
+5. **Line Chart:** Sales by Outlet Establishment Year.
+6. **Interactive Slicers:** Filter the entire report using outlet and product attributes.
 
-| KPI | Displayed value | Definition |
-|---|---:|---|
-| Total Sales | 1.20M | Sum of Sales |
-| Average Sales | 140.99 | Average of Sales |
-| Total Items | 9K | Count of item records |
-| Average Rating | 3.92 | Average of Rating |
+## 📊 Dashboard Preview
 
-Recheck these values in the final saved report before publishing.
+### 1. Overall Dashboard
+![Overall Dashboard](Screenshots/Blinkit_Dashboard.png)
 
-## Dashboard Visuals
+### 2. Filtered Dashboard
+![Filtered Dashboard](Screenshots/Blinkit_Dashboard_Filtered.png)
 
-| Visual | Purpose |
-|---|---|
-| Horizontal bar chart | Sales by Item Type |
-| Donut chart | Sales distribution by Outlet Size |
-| Column chart | Sales by Outlet Location Type |
-| Line chart | Sales by Outlet Establishment Year |
-| KPI cards | Total Sales, Average Sales, Total Items, Average Rating |
-| Slicers | Outlet Location Type, Outlet Size, Item Type |
+## 🔢 Key Performance Indicators
 
-## Dataset
+| KPI | Current Displayed Value |
+|---|---:|
+| Total Sales | 1.20M |
+| Average Sales | 140.99 |
+| Total Items | 9K |
+| Average Rating | 3.92 |
 
-The CSV contains grocery item and outlet attributes. Expected columns include `Item Fat Content`, `Item Identifier`, `Item Type`, `Item Visibility`, `Item Weight`, `Outlet Establishment Year`, `Outlet Identifier`, `Outlet Location Type`, `Outlet Size`, `Outlet Type`, `Rating`, and `Sales`.
+*Values should be validated against the final unfiltered dashboard.*
 
-See [Dataset/README.md](Dataset/README.md). The dataset is not included in this starter package; only redistribute it if its licence permits.
-
-## Data Preparation
-
-Data preparation was performed in Power Query Editor. Column types and data quality were reviewed, and a cleaned item fat-content category was created to standardise inconsistent labels. Document the exact final transformation steps after verifying them in Power Query.
-
-## Tools
-
-- Microsoft Power BI Desktop
-- Power Query
-- DAX
-- CSV
-- GitHub
-
-## DAX Measures
-
-Example measures (adjust the table name if yours differs):
+## 🧮 DAX Measures
 
 ```dax
 Total Sales =
@@ -79,42 +69,67 @@ Average Rating =
 AVERAGE('BlinkIT Grocery Data'[Rating])
 ```
 
-## Repository Structure
+## 🧹 Data Preparation
+
+- Imported the CSV dataset into Power BI.
+- Reviewed column names and data types.
+- Standardised inconsistent Item Fat Content categories.
+- Retained missing Item Weight values without replacing them with zero.
+
+## 🛠️ Tech Stack
+
+- **Power BI Desktop** – Dashboard development
+- **Power Query** – Data cleaning and transformation
+- **DAX** – KPI calculations
+- **CSV** – Dataset
+- **GitHub** – Version control and documentation
+
+## 📂 Repository Structure
 
 ```text
 Blinkit_Sales_Analytics_Dashboard/
+│
 ├── README.md
 ├── .gitignore
+│
 ├── Dataset/
 │   └── README.md
+│
 ├── PowerBI/
+│   ├── Blinkit_Sales_Analytics.pbix
 │   └── README.md
+│
 ├── Screenshots/
-│   └── README.md
+│   ├── Blinkit_Dashboard.png
+│   └── Blinkit_Dashboard_Filtered.png
+│
 └── Documentation/
     └── Project_Overview.md
 ```
 
-## How to Use
+## ▶️ How to Use
 
 1. Clone or download this repository.
-2. Open `PowerBI/Blinkit_Sales_Analytics.pbix` in Power BI Desktop.
-3. If prompted, update the source path to the CSV on your computer.
-4. Refresh the report.
-5. Use the slicers to explore the data.
+2. Open the `.pbix` file using Power BI Desktop.
+3. Update the CSV source path if prompted.
+4. Refresh the dataset.
+5. Explore the dashboard using interactive slicers.
 
-## Future Improvements
+## 🔮 Future Improvements
 
-- Apply a polished purple/lavender theme.
-- Refine chart titles, labels, spacing, and slicers.
-- Add verified business insights.
-- Include final dashboard screenshots.
+- Complete the purple/lavender dashboard theme.
+- Add further outlet and product-level analysis.
+- Include validated business insights.
+- Add final dashboard screenshots.
 
-## Author
+## 👩‍💻 Author
 
-**Garima Sharma**  
+**Garima Sharma**
+
+B.Tech – Electronics and Communication Engineering
 
 [GitHub Profile](https://github.com/GarimaSharma75)
-[Linkedin Profile]((https://www.linkedin.com/in/garima-sharma-4610a8293/))
+
 ---
-Academic and portfolio project demonstrating data analysis and dashboard development using Power BI.
+
+⭐ If you find this project useful, feel free to star the repository!
