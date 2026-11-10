@@ -113,8 +113,8 @@ Blinkit_Sales_Analytics_Dashboard/
 ## Author
 
 **Garima Sharma**  
-B.Tech — Electronics and Communication Engineering  
-[GitHub Profile](https://github.com/GarimaSharma75)
 
+[GitHub Profile](https://github.com/GarimaSharma75)
+[Linkedin Profile]((https://www.linkedin.com/in/garima-sharma-4610a8293/))
 ---
 Academic and portfolio project demonstrating data analysis and dashboard development using Power BI.
