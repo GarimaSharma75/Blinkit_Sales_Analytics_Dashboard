@@ -3,7 +3,7 @@
 ![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=powerbi&logoColor=black)
 ![Data Analytics](https://img.shields.io/badge/Data_Analytics-54278F?style=for-the-badge&logo=googleanalytics&logoColor=white)
 ![Interactive Dashboard](https://img.shields.io/badge/Interactive_Dashboard-7651B5?style=for-the-badge&logo=powerbi&logoColor=white)
-![Status](https://img.shields.io/badge/Status-In_Progress-orange?style=for-the-badge)
+
 
 An interactive **Blinkit Grocery Sales & Outlet Performance Dashboard** developed using Microsoft Power BI.
 
