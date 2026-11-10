@@ -126,10 +126,8 @@ Blinkit_Sales_Analytics_Dashboard/
 
 **Garima Sharma**
 
-B.Tech – Electronics and Communication Engineering
-
 [GitHub Profile](https://github.com/GarimaSharma75)
-
+[Linkedin Profile](https://www.linkedin.com/in/garima-sharma-4610a8293/)
 ---
 
 ⭐ If you find this project useful, feel free to star the repository!
