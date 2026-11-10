@@ -2,7 +2,7 @@
 
 An interactive **Power BI dashboard** for analysing grocery sales across item categories, outlet sizes, location tiers, and outlet establishment years.
 
-> **Status:** Dashboard development in progress. Add the final `.pbix` report and dashboard screenshot before publishing.
+
 
 ## Dashboard Preview
 
