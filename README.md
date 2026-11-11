@@ -115,12 +115,6 @@ Blinkit_Sales_Analytics_Dashboard/
 4. Refresh the dataset.
 5. Explore the dashboard using interactive slicers.
 
-## 🔮 Future Improvements
-
-- Complete the purple/lavender dashboard theme.
-- Add further outlet and product-level analysis.
-- Include validated business insights.
-- Add final dashboard screenshots.
 
 ## 👩‍💻 Author
 
